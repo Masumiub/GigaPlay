@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Saira Condensed', sans-serif;
+    color: yellow;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'Saira Condensed', sans-serif;
+    color: yellow;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.navbar{
+    padding: 25px;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-family: 'Saira Condensed', sans-serif;
+    color: yellow;
+}
+.navbar-brand a{
+    color: yellow;
+}
+#heroheader{
+    background-image: url("img/bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.leftColumn{
+    padding: 35px;
+    /* background-color: black; */
+    background: rgb(0,0,0, .7);
+    height: 100vh;
+}
+.headerText{
+    margin-top: 50%;
+    padding-left: 10px;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 999px;
+}
+.btn:hover{
+    background-color: black;
+    border: 1px solid yellow;
+    color: yellow;
+    transition: 1s;
+}
+
+#featureGames{
+    /* height: 50vh; */
+    background-color: black; 
+}
+
+.featureGamesText{
+    /* width: 60%; */
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.featureGame{
+    margin: 0px auto; 
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+#rightsidecolfeatureGames{
+    background-color: black; 
+}
+
+#leftsidecolfeatureGames{
+    background-color: black; 
+}
+
+.card{
+    background-color: black; 
+    margin: 10px; 
+    border: none;
+}
+.card-body{
+    background-color: black; 
+    padding: 35px;
+}
+
+.topfeatures{
+    margin-top: 45px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+hr{
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 120px; 
+    margin-bottom: 50px;
+}
+.py-5{
+    background-color: black; 
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hiddenfade{
+    opacity: 0;
+    transition: all 2.5s;
+}
+.showfade{
+    opacity: 1;
+}
+
+.hiddenTop{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 2s;
+}
+.showTop{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hiddenScale{
+    opacity: 0;
+    filter: blur(5px);
+    transform:scale(5,5);
+    transition: all 2s;
+}
+.showScale{
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1,1);
+}
