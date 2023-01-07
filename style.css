@@ -3,12 +3,18 @@ html{
 }
 body{
     background-color: black;
+    cursor: url('img/cursor3.png'), auto;
 }
 h1{
     font-family: 'Saira Condensed', sans-serif;
     color: yellow;
     font-size: 70px;
     text-transform: uppercase;
+}
+h2{
+    font-family: 'Saira Condensed', sans-serif;
+    color: yellow;
+    font-size: 40px;
 }
 h3{
     font-family: 'Saira Condensed', sans-serif;
@@ -54,15 +60,17 @@ p{
 .btn{
     background-color: yellow;
     border-radius: 999px;
+    transition: 1s ease-out;
 }
 .btn:hover{
     background-color: black;
     border: 1px solid yellow;
     color: yellow;
-    transition: 1s;
+    transition: 1s ease-in;
+    cursor: crosshair;
 }
 
-#featureGames{
+.featureGames{
     /* height: 50vh; */
     background-color: black; 
 }
@@ -98,6 +106,41 @@ p{
     padding: 35px;
 }
 
+.cardbox{
+    background-color: black; 
+    margin: 10px;
+    padding: 20px;
+    transition: 1s ease-out;
+}
+
+
+.cardbox:hover{
+    box-shadow: rgba(229, 223, 143, 0.3) 0px 7px 29px 0px;
+    transition: 1s ease-in;
+    transform: scale(1.09, 1.09);
+}
+
+.cardboxPro{
+    background-color: black; 
+    margin: 10px;
+    padding: 20px;
+    transition: 1s ease-out;
+    box-shadow: rgba(229, 223, 143, 0.3) 0px 7px 29px 0px;
+}
+
+.cardboxPro:hover{
+    background-color: black; 
+    margin: 10px;
+    padding: 20px;
+    transition: 1s ease-out;
+    box-shadow: rgba(229, 223, 143, 0.6) 0px 7px 29px 0px;
+    transform: scale(1.15, 1.15);
+}
+
+.list-unstyled{
+    line-height: 2;
+}
+
 .topfeatures{
     margin-top: 45px; 
     margin-left: 20px; 
@@ -112,7 +155,7 @@ hr{
 .footer{
     background-color: black;
     margin-top: 120px; 
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .py-5{
     background-color: black; 
@@ -153,11 +196,40 @@ hr{
 .hiddenScale{
     opacity: 0;
     filter: blur(5px);
-    transform:scale(5,5);
+    transform:scale(0.5,0.5);
     transition: all 2s;
 }
 .showScale{
     opacity: 1;
     filter: blur(0);
     transform: scale(1,1);
+}
+
+.pricing-header{
+    max-width: 700px;
+}
+
+.badge{
+    background-color: yellow;
+    color: black;
+    font-size: 14px; 
+}
+
+.fa{
+    color: #ffffff;
+    margin: 7px;
+    transition: 1s ease-out;
+}
+
+.fa{
+    color: #ffffff;
+    margin: 7px;
+    transition: .5s ease-out;
+    transform: translateX(0px);
+}
+
+.fa:hover{
+    color: yellow;
+    transition: .5s ease-in;
+    transform: translateY(-7px);
 }

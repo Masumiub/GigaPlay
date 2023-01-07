@@ -6,72 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Google Font CDN Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400&display=swap"
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Saira+Condensed:wght@100;200;300;400&display=swap"
         rel="stylesheet">
 
+    <!-- Animate CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
+    <!-- ////////////////////// -->
     <!-- navbar starts -->
+    <!-- ////////////////////// -->
     <nav class="navbar navbar-expand-lg navbar-dark customNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: yellow;">GigaPlay</a>
+            <img src="img/Gp_logo.png" alt="GigaPlayLogo" style="width: 37px; margin: 5px;">
+            <a class="navbar-brand" href="index.html" style="color: yellow;">
+                GAMINGXR</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <img src="img/togglebtn.png" alt="|||" style="width: 37px;">
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
                 </ul>
                 <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+                        </li>
+                    </ul>
                 </form>
             </div>
         </div>
     </nav>
+    <!-- ////////////////////// -->
     <!-- navbar ends -->
+    <!-- ////////////////////// -->
 
     <div class="container-fluid">
 
+        <!-- ////////////////////// -->
         <!-- heroheader section starts -->
+        <!-- ////////////////////// -->
         <div class="row align-items-center" id="heroheader">
             <div class="col-lg-4 col-md-6 col-12 leftColumn animate__animated animate__fadeInLeftBig">
                 <div class="headerText">
@@ -86,15 +105,19 @@
                 </div>
             </div>
         </div>
+        <!-- ////////////////////// -->
         <!-- heroheader section ends -->
+        <!-- ////////////////////// -->
 
+        <!-- ////////////////////// -->
         <!-- feature games section starts -->
-        <div class="row align-items-center hidden" id="featureGames">
+        <!-- ////////////////////// -->
+        <div class="row align-items-center hidden featureGames">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="featureGamesText text-center">
-                    <h3>
+                    <h2>
                         Martian Quest
-                    </h3>
+                    </h2>
                     <p>
                         This is your Service description. Use this space to describe what the service entails, benefits
                         for users and any other important information.
@@ -109,7 +132,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center hidden" id="featureGames">
+        <div class="row align-items-center hidden featureGames">
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="row" id="leftsidecolfeatureGames">
                     <img src="img/leftsidebanner.png" alt="banner" class="img-fluid featureGame">
@@ -117,9 +140,9 @@
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="featureGamesText text-center">
-                    <h3>
-                        Call of 16
-                    </h3>
+                    <h2>
+                        Call of Thirty
+                    </h2>
                     <p>
                         This is your Service description. Use this space to describe what the service entails, benefits
                         for users and any other important information.
@@ -130,17 +153,30 @@
 
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- feature games section ends -->
+    <!-- ////////////////////// -->
 
+    <!-- ////////////////////// -->
     <!-- Gaming Cards Section Starts -->
+    <!-- ////////////////////// -->
     <div style="background-color: black;">
         <div class="container-fluid">
-            <div class="row" style="background-color: black; margin-top: 90px; margin-left: 20px; margin-right: 20px;">
-                
+
+            <div class="row">
+
+                <div class="text-center hiddenTop">
+                    <h1 style=" margin-top: 120px; ">TOP RANKED GAMES</h1>
+                </div>
+
+            </div>
+
+            <div class="row" style="background-color: black; margin-top: 45px; margin-left: 20px; margin-right: 20px;">
+
                 <div class="col-lg-4 col-md-4 col-12 hiddenfade">
                     <div class="card " style="background-color: black; margin: 10px; border: none;">
                         <img src="img/wedesnday_a_woman_with_VR_Headset_with_fire_blade_runner_stylec_65ac27c5-8155-45a6-94fe-5263d4971724.png"
-                            class="card-img-top img-fluid" alt="...">
+                            class="card-img-top img-fluid" alt="gamebanner">
                         <div class="card-body" style="background-color: black; padding: 35px;">
                             <h3>Dragons Lair</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -153,7 +189,7 @@
                 <div class="col-lg-4 col-md-4 col-12 hiddenfade">
                     <div class="card " style="background-color: black; margin: 10px; border: none;">
                         <img src="img/higor_a_solider_with_m-16_gun_and_helmet_blade_runner_style_cyb_6b9a21f8-18b8-4d78-b4ac-1b5e81f2b1ba.png"
-                            class="card-img-top img-fluid">
+                            class="card-img-top img-fluid" alt="gamebanner">
                         <div class="card-body" style="background-color: black; padding: 35px;">
                             <h3>Atactic v2</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -166,7 +202,7 @@
                 <div class="col-lg-4 col-md-4 col-12 hiddenfade">
                     <div class="card" style="background-color: black; margin: 10px; border: none;">
                         <img src="img/wedesnday_a_woman_with_VR_Headset_with_fire_blade_runner_stylec_f8cf56e0-5c03-411b-989e-37c3adeca0ef.png"
-                            class="card-img-top img-fluid">
+                            class="card-img-top img-fluid" alt="gamebanner">
                         <div class="card-body" style="background-color: black; padding: 35px;">
                             <h3>Proven Stair</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -179,9 +215,13 @@
             </div>
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- Gaming Cards Section Ends -->
+    <!-- ////////////////////// -->
 
+    <!-- ////////////////////// -->
     <!-- About Us Section Starts -->
+    <!-- ////////////////////// -->
     <div style="background-color: black;">
         <div class="container">
             <div class="row hiddenfade" style="margin-top: 90px;">
@@ -208,9 +248,13 @@
             </div>
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- About Us Section Ends -->
+    <!-- ////////////////////// -->
 
+    <!-- ////////////////////// -->
     <!-- Go Level Beyond Section Starts -->
+    <!-- ////////////////////// -->
     <div style="background-color: black;">
         <div class="container-fluid">
             <div class="row">
@@ -224,7 +268,7 @@
 
             <div class="row topfeatures">
 
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-lg-3 col-md-12 col-12">
                     <div style="margin: 10px;">
                         <div class="row text-center hiddenfade" style="margin-top: 10px;">
                             <h3>High Quality</h3>
@@ -239,13 +283,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <div class="hiddenScale">
                         <img src="img/laptop_game.png" alt="gaming" class="img-fluid">
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-lg-3 col-md-12 col-12">
                     <div style="margin: 10px;">
                         <div class="row text-center hiddenfade" style="margin-top: 10px;">
                             <h3>Minimum Ram</h3>
@@ -263,9 +307,114 @@
             </div>
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- Go Level Beyond Section Ends -->
+    <!-- ////////////////////// -->
 
+
+    <!-- ////////////////////// -->
+    <!-- Pricing Section Starts -->
+    <!-- ////////////////////// -->
+    <div>
+        <div class="container">
+
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center hiddenTop">
+                <h1 style=" margin-top: 120px; ">Pricing</h1>
+                <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example.
+                    It’s built with default Bootstrap components and utilities with little customization.</p>
+            </div>
+
+            <div class="row" style="margin-top: 45px;">
+
+                <div class="col-lg-4 col-md-12 col-12">
+
+                    <div class="cardbox rounded-3 hiddenfade">
+                        <div class="cardbox-header">
+                          <h3>Basic</h3>
+                          <hr>
+                        </div>
+                        <div class="cardbox-body">
+                          <h1 class="card-title">$29<span class="text-muted fw-light fs-3">/mo</span></h1>
+                          <ul class="list-unstyled mt-3 mb-4 text-white">
+                            <li>2 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>60fps Game Supported</li>
+                            <li>Help center access</li>
+                          </ul>
+                          <div style="margin-bottom: 10px;">
+                            <button type="button" class="btn">Sign up for free</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12">
+
+                    <div class="cardboxPro rounded-3 hiddenTop">
+                        <div class="cardbox-header">
+                          <h3>Professional </h3>
+                          <p><span class="badge rounded-pill">BEST VALUE!</span></p>
+                          <hr>
+                        </div>
+                        <div class="cardbox-body">
+                          <h1 class="card-title">$39<span class="text-muted fw-light fs-3">/mo</span></h1>
+                          <ul class="list-unstyled mt-3 mb-4 text-white">
+                            <li>5 users included</li>
+                            <li>8 GB of storage</li>
+                            <li>Email support</li>
+                            <li>120fps Game Supported</li>
+                            <li>4d Game Supported</li>
+                            <li>NFT Game Supported</li>
+                            <li>Help center access</li>
+                          </ul>
+                          <div style="margin-bottom: 10px;">
+                            <button type="button" class="btn">Sign up for free</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12">
+
+                    <div class="cardbox rounded-3 hiddenfade">
+                        <div class="cardbox-header">
+                          <h3>Enterprise</h3>
+                          <hr>
+                        </div>
+                        <div class="cardbox-body">
+                          <h1 class="card-title">$59<span class="text-muted fw-light fs-3">/mo</span></h1>
+                          <ul class="list-unstyled mt-3 mb-4 text-white">
+                            <li>10 users included</li>
+                            <li>20 GB of storage</li>
+                            <li>Email support</li>
+                            <li>120fps Game Supported</li>
+                            <li>4d+NFT Game Supported</li>
+                            <li>Help center access</li>
+                          </ul>
+                          <div style="margin-bottom: 10px;">
+                            <button type="button" class="btn">Sign up for free</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////// -->
+    <!-- Pricing Section Ends -->
+    <!-- ////////////////////// -->
+
+    <!-- ////////////////////// -->
     <!-- VR Box Supported Section Starts -->
+    <!-- ////////////////////// -->
     <div style="background-color: black;">
         <div class="container">
             <div class="row align-items-center" style="margin-top: 120px;">
@@ -308,9 +457,166 @@
             </div>
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- VR Box Supported Section Starts -->
+    <!-- ////////////////////// -->
 
+    <!-- ////////////////////// -->
+    <!-- Testimonial Section Starts -->
+    <!-- ////////////////////// -->
+    <div>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="text-center hiddenTop" style=" margin-top: 120px; ">
+                    <h3>Happy Gamers</h3>
+                    <h1 >What they're saying</h1>
+                </div>
+
+            </div>
+
+            <div class="row" style="margin-top: 45px ;">
+                
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar2.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Riley Jones</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar1.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Parker Stuart</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar3.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Taylor Rake</h3>
+                            </div>
+
+                        </div>
+
+                      </div>
+
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                
+                                <img src="img/avatar2.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Riley Jones</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar1.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Parker Stuart</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar3.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Taylor Rake</h3>
+                            </div>
+
+                        </div>
+
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar2.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Riley Jones</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar1.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Parker Stuart</h3>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 text-center">
+                                <img src="img/avatar3.png" alt="avatar" width="150px">
+                                <div><i class="fa fa-solid fa-quote-left fa-2x"></i></div>
+                                <p>This is your Testimonial quote. Give your customers the stage to tell the world how great you are!</p>
+                                <h3>Taylor Rake</h3>
+                            </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+
+                    <div style="background-color: grey; margin-top: 40px;">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                    </div>
+
+
+                  </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////// -->
+    <!-- Testimonial Section Ends -->
+    <!-- ////////////////////// -->
+
+
+    <!-- ////////////////////// -->
+    <!-- Downlaod App Section Starts -->
+    <!-- ////////////////////// -->
+    <div>
+        <div class="container-fluid">
+            <div class="row" style=" margin-top: 120px; box-shadow: rgba(229, 223, 143, 0.4) 0px 7px 29px 0px;">
+
+                <div class="text-center hiddenTop" style="margin-top: 140px; margin-bottom: 150px; padding: 20px;">
+                    <h1>Get Our Mobile App</h1>
+                    <button class="btn" ><i class="fabtn fa-brands fa-app-store-ios "></i> Download Now</button>
+                    <button class="btn" ><i class="fabtn fa-brands fa-google-play "></i> Download Now</button>
+        
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////// -->
+    <!-- Downlaod App Section Ends -->
+    <!-- ////////////////////// -->
+
+
+    <!-- ////////////////////// -->
     <!-- Footer Section Starts -->
+    <!-- ////////////////////// -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -338,22 +644,36 @@
                             Got something to share?  <br>
                             Ping us at info@mysite.com
                         </p>
+                        <h3>Follow us </h3>
+                        <hr>
+                        <i class="fa fa-brands fa-youtube fa-2x"></i>
+                        <i class="fa fa-brands fa-google fa-2x"></i>
+                        <i class="fa fa-brands fa-twitter fa-2x"></i>
+                        <i class="fa fa-brands fa-facebook fa-2x"></i>
+                        <i class="fa fa-brands fa-instagram fa-2x"></i>
+                        <i class="fa fa-brands fa-pinterest fa-2x"></i>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
+    <!-- ////////////////////// -->
     <!-- Footer Section Starts -->
+    <!-- ////////////////////// -->
 
 
+    <!-- ////////////////////// -->
     <!-- Footer Copyright Section Starts -->
+    <!-- ////////////////////// -->
     <footer class="py-5">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; GigaPlay - Masum2023</p>
+            <p class="m-0 text-center text-white"> <b>Copyright &copy; GigaPlay - Masum2023</b> </p>
         </div>
     </footer>
+    <!-- ////////////////////// -->
     <!-- Footer Copyright Section Ends -->
+    <!-- ////////////////////// -->
 
 
     <!-- Bootstrap Javascript CDN -->

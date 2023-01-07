@@ -58,6 +58,9 @@ const observerScale = new IntersectionObserver((entries) =>{
             entry.target.classList.add('showScale');
 
         }
+        else{
+            entry.target.classList.remove('showScale');
+        }
 
     });
 })
